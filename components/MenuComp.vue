@@ -48,25 +48,24 @@ const backMenu = () => {
           :key="index"
           @click="jumpPage(item)"
         >
-          <div>
+          <div class="menu-item">
             <template v-if="item?.path">
               <nuxt-link
-                class="nav-link-style"
+                class="nav-link-style no-children-menu"
                 :to="item.path"
                 @click.native="navbarToggle"
                 >{{ item.title }}</nuxt-link
               >
             </template>
             <template v-else>
-              <div>
-                {{ item.title }}
+              <div class="children-menu">
+                <div>
+                  {{ item.title }}
+                </div>
+                <span class="iconfont icon-arrow-right"></span>
               </div>
             </template>
           </div>
-          <span
-            v-if="item?.children?.length"
-            class="iconfont icon-arrow-right"
-          ></span>
         </li>
       </ul>
     </div>
@@ -85,25 +84,24 @@ const backMenu = () => {
           :key="index"
           @click="jumpPage(item)"
         >
-          <div>
-            <template v-if="item.path">
+          <div class="menu-item">
+            <template v-if="item?.path">
               <nuxt-link
-                class="nav-link-style"
+                class="nav-link-style no-children-menu"
                 :to="item.path"
                 @click.native="navbarToggle"
                 >{{ item.title }}</nuxt-link
               >
             </template>
             <template v-else>
-              <div>
-                {{ item.title }}
+              <div class="children-menu">
+                <div>
+                  {{ item.title }}
+                </div>
+                <span class="iconfont icon-arrow-right"></span>
               </div>
             </template>
           </div>
-          <span
-            v-if="item?.children?.length"
-            class="iconfont icon-arrow-right"
-          ></span>
         </li>
       </ul>
     </div>
@@ -128,13 +126,24 @@ const backMenu = () => {
       li {
         /* margin: 0 15px; */
         border-bottom: 1px solid #d4d4d4;
-        display: flex;
-        justify-content: space-between;
-        padding: 15px 0;
-        align-items: center;
+
         cursor: pointer;
-        .icon-arrow-right {
-          font-size: 20px;
+        .menu-item {
+          display: flex;
+          .no-children-menu {
+            padding: 20px 0;
+            width: 100%;
+          }
+          .children-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            flex: 1;
+            .icon-arrow-right {
+              font-size: 20px;
+            }
+          }
         }
       }
     }

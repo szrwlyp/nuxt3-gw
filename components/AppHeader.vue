@@ -114,7 +114,7 @@ const closeNav = () => {
         </nav>
       </div>
     </header>
-    <div v-if="isShowBg" class="bg"></div>
+    <div v-if="isShowBg" class="bg" @click.stop="closeNav"></div>
   </div>
 </template>
 

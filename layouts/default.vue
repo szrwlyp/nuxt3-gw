@@ -19,6 +19,7 @@
   /* width: 1200px; */
   margin: 0 auto;
   font-size: 16px;
+  min-height: calc(100vh - 257px);
 }
 @media screen and (max-width: 768px) {
   .main {

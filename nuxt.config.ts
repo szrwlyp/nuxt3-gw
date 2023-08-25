@@ -26,6 +26,12 @@ export default defineNuxtConfig({
         },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/gw/dist/cc.ico" }],
+      script: [
+        {
+          type: "text/javascript",
+          src: "https://map.qq.com/api/gljs?v=1.exp&key=EKIBZ-FCOYW-FMWRR-RSJQV-UOCX2-S2BL4",
+        },
+      ],
     },
   },
 

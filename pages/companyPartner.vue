@@ -87,8 +87,14 @@ const listData = ref([
 
         .qualifications-item {
           border: solid 1px #eaeaea;
+          &:hover {
+            img {
+              transform: scale(1.1);
+            }
+          }
           img {
             width: 100%;
+            transition: all 0.5s;
             /* height: 250px; */
             padding: 20px;
             object-fit: contain;

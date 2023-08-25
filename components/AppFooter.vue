@@ -20,7 +20,9 @@ import { footerNavList } from "assets/js/publicConfig";
           <div>400-070-7770</div>
         </div>
         <span style="margin: 0 16px">|</span>
-        <span class="contact-weixin iconfont icon-weixin"></span>
+        <div class="contact-weixin iconfont icon-weixin">
+          <img src="@/assets/images/weixin.png" alt="" />
+        </div>
         <!-- <img
           src="https://www.chaochuang.com.cn/style/images/wechat-default.png"
           alt=""
@@ -66,6 +68,7 @@ import { footerNavList } from "assets/js/publicConfig";
     .contact {
       display: flex;
       align-items: center;
+      position: relative;
       .contact-phone {
         display: flex;
         align-items: center;
@@ -82,6 +85,20 @@ import { footerNavList } from "assets/js/publicConfig";
         /* width: 30px;
         height: 30px; */
         font-size: 30px;
+        position: relative;
+        cursor: pointer;
+        img {
+          position: absolute;
+          top: -166px;
+          left: -53px;
+          display: none;
+          z-index: 100;
+        }
+        &:hover {
+          img {
+            display: block;
+          }
+        }
       }
     }
   }
