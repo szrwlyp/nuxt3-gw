@@ -1,0 +1,22 @@
+/* .img-align-center {
+  display: block;
+  margin: 30px auto;
+}
+.img-align-left {
+  float: left;
+}
+.img-align-right {
+  float: right;
+} */
+.img-left-margin-10 {
+  margin-left: 10px;
+}
+.img-right-margin-10 {
+  margin-right: 10px;
+}
+.img-left-margin-20 {
+  margin-left: 20px;
+}
+.img-right-margin-20 {
+  margin-right: 20px;
+}

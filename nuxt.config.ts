@@ -31,6 +31,8 @@ export default defineNuxtConfig({
           type: "text/javascript",
           src: "https://map.qq.com/api/gljs?v=1.exp&key=EKIBZ-FCOYW-FMWRR-RSJQV-UOCX2-S2BL4",
         },
+        { type: "text/javascript", src: "/gw/dist/tinymce/tinymce.min.js" },
+        { type: "text/javascript", src: "/gw/dist/tinymce/langs/zh-Hans.js" },
       ],
     },
   },
