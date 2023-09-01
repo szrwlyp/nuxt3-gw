@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   app: {
     baseURL: "/gw/dist/",
+    buildAssetsDir: "static",
     head: {
       charset: "utf-8",
       viewport:
@@ -25,19 +26,26 @@ export default defineNuxtConfig({
             "超创信息,政府行业信息化建设,系统集成,软件与信息服务,信息化解决方案",
         },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/gw/dist/cc.ico" }],
+      link: [{ rel: "icon", type: "image/x-icon", href: "./cc.ico" }],
       script: [
         {
           type: "text/javascript",
           src: "https://map.qq.com/api/gljs?v=1.exp&key=EKIBZ-FCOYW-FMWRR-RSJQV-UOCX2-S2BL4",
         },
-        { type: "text/javascript", src: "/gw/dist/tinymce/tinymce.min.js" },
-        { type: "text/javascript", src: "/gw/dist/tinymce/langs/zh-Hans.js" },
+        { type: "text/javascript", src: "/tinymce/tinymce.min.js" },
+        { type: "text/javascript", src: "/tinymce/langs/zh-Hans.js" },
       ],
     },
   },
 
   devtools: { enabled: true },
+  runtimeConfig: {
+    baseURL: "/",
+    public: {
+      baseURL: "/gw/dist/",
+      aa: process.env.NUXT_APP_BASE_URL,
+    },
+  },
   modules: [
     // https://go.nuxtjs.dev/bootstrap
   ],

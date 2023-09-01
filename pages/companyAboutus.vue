@@ -3,7 +3,7 @@
 <template>
   <div class="company-aboutus">
     <div class="header-banner">
-      <img src="@/assets/images/list_banner.jpg" alt="" />
+      <img src="/images/list_banner.jpg" alt="" />
     </div>
     <div class="company-aboutus-content">
       <h1 class="title">公司简介</h1>
@@ -17,10 +17,10 @@
           </p>
         </div>
         <div class="content-item area-b">
-          <img src="@/assets/images/about_cc/about_pic1.png" alt="" />
+          <img src="/images/about_cc/about_pic1.png" alt="" />
         </div>
         <div class="content-item area-c">
-          <img src="@/assets/images/about_cc/about_pic2.jpg" alt="" />
+          <img src="/images/about_cc/about_pic2.jpg" alt="" />
         </div>
         <div class="content-item area-d">
           <p>

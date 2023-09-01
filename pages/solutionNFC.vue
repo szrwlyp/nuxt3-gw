@@ -11,7 +11,7 @@
     </div>
 
     <div class="item-2">
-      <img src="@/assets/images/solution_npc/bg2.png" alt="" />
+      <img src="/images/solution_npc/bg2.png" alt="" />
     </div>
 
     <div class="item-3">
@@ -21,7 +21,7 @@
           <div class="area-c">
             <img
               class="area-img"
-              src="@/assets/images/solution_npc/weifuwu.png"
+              src="/images/solution_npc/weifuwu.png"
               alt=""
             />
             <div class="area-item-1">微服务</div>
@@ -32,7 +32,7 @@
           <div class="area-c">
             <img
               class="area-img"
-              src="@/assets/images/solution_npc/kuapingtai.png"
+              src="/images/solution_npc/kuapingtai.png"
               alt=""
             />
             <div class="area-item-1">跨平台</div>
@@ -43,7 +43,7 @@
           <div class="area-c">
             <img
               class="area-img"
-              src="@/assets/images/solution_npc/anquanbaozhang.png"
+              src="/images/solution_npc/anquanbaozhang.png"
               alt=""
             />
             <div class="area-item-1">安全保障</div>
@@ -53,18 +53,18 @@
           </div>
         </div>
         <div class="fn1-img">
-          <img src="@/assets/images/solution_npc/picright.png" alt="" />
+          <img src="/images/solution_npc/picright.png" alt="" />
         </div>
       </div>
       <div class="item-3-content function-2">
         <div class="fn1-img">
-          <img src="@/assets/images/solution_npc/picleft.png" alt="" />
+          <img src="/images/solution_npc/picleft.png" alt="" />
         </div>
         <div class="item-area">
           <div class="area-c">
             <img
               class="area-img"
-              src="@/assets/images/solution_npc/weifuwu.png"
+              src="/images/solution_npc/weifuwu.png"
               alt=""
             />
             <div class="area-item-1">全终端体验</div>
@@ -75,7 +75,7 @@
           <div class="area-c">
             <img
               class="area-img"
-              src="@/assets/images/solution_npc/kuapingtai.png"
+              src="/images/solution_npc/kuapingtai.png"
               alt=""
             />
             <div class="area-item-1">业务集成</div>
@@ -86,7 +86,7 @@
           <div class="area-c">
             <img
               class="area-img"
-              src="@/assets/images/solution_npc/anquanbaozhang.png"
+              src="/images/solution_npc/anquanbaozhang.png"
               alt=""
             />
             <div class="area-item-1">消息推送</div>
@@ -105,14 +105,10 @@
           南宁市人大综合管理信息平台是以先进的信息技术，依托南宁市电子政务内网，建设集门户网站、办公自动化、人大代表服务、议案建议管理、立法管理、监督管理、信访信息管理、会议审议为一体的一站式信息平台。对内为南宁市人大各部门提供一个信息共享畅通的业务处理平台，对外为人大代表之间，广大民众与人大代表、各级领导之间提供交流的平台。
         </p>
       </div>
-      <img
-        class="item-4-img"
-        src="@/assets/images/solution_npc/display.png"
-        alt=""
-      />
+      <img class="item-4-img" src="/images/solution_npc/display.png" alt="" />
     </div>
     <div class="item-5">
-      <img src="@/assets/images/solution_npc/bg4.png" alt="" />
+      <img src="/images/solution_npc/bg4.png" alt="" />
     </div>
   </div>
 </template>
@@ -136,7 +132,7 @@
     width: 100%;
     height: 643px;
 
-    background: url("@/assets/images/solution_npc/bg1.jpg") no-repeat;
+    background: url("/images/solution_npc/bg1.jpg") no-repeat;
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
@@ -167,7 +163,7 @@
   .item-3 {
     padding: 40px 0;
     .item-3-title {
-      background: url("@/assets/images/solution_npc/titlebg2.png") no-repeat;
+      background: url("/images/solution_npc/titlebg2.png") no-repeat;
 
       @include h2-title(#3072e7);
     }
@@ -215,10 +211,10 @@
 
   .item-4 {
     padding: 40px 0;
-    background: url("@/assets/images/solution_npc/bg3.png") no-repeat;
+    background: url("/images/solution_npc/bg3.png") no-repeat;
     background-size: 100% 100%;
     .item-4-title {
-      background: url("@/assets/images/solution_npc/titlebg3.png") no-repeat;
+      background: url("/images/solution_npc/titlebg3.png") no-repeat;
 
       @include h2-title(#fff);
     }

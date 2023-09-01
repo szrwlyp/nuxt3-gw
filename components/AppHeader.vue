@@ -38,7 +38,7 @@ const closeNav = () => {
     <header>
       <div class="h-navbar affix-top">
         <div class="logo">
-          <img src="~assets/images/header/logo.jpg" alt="超创信息" />
+          <img src="/images/header/logo.jpg" alt="超创信息" />
         </div>
         <MenuComp></MenuComp>
         <nav class="cc-navbar">

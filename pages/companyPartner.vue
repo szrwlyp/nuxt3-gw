@@ -1,43 +1,44 @@
 <script setup lang="ts">
 import { ref } from "vue";
-
+const config = useRuntimeConfig();
+const base = config.public.baseURL;
 const listData = ref([
   {
-    url: new URL("@/assets/images/about_cc/huawei.jpg", import.meta.url).href,
+    url: "/huawei.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/inspur.jpg", import.meta.url).href,
+    url: "/inspur.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/sangfor.jpg", import.meta.url).href,
+    url: "/sangfor.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/wps.jpg", import.meta.url).href,
+    url: "/wps.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/kylin.jpg", import.meta.url).href,
+    url: "/kylin.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/lenovo.jpg", import.meta.url).href,
+    url: "/lenovo.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/zte.jpg", import.meta.url).href,
+    url: "/zte.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/dc.jpg", import.meta.url).href,
+    url: "/dc.jpg",
   },
 
   {
-    url: new URL("@/assets/images/about_cc/h3c.jpg", import.meta.url).href,
+    url: "/h3c.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/ms.jpg", import.meta.url).href,
+    url: "/ms.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/ms.jpg", import.meta.url).href,
+    url: "/ms.jpg",
   },
   {
-    url: new URL("@/assets/images/about_cc/oracle.jpg", import.meta.url).href,
+    url: "/oracle.jpg",
   },
 ]);
 </script>
@@ -45,7 +46,7 @@ const listData = ref([
 <template>
   <div class="company-aboutus">
     <div class="header-banner">
-      <img src="@/assets/images/about_cc/list_banner5.jpg" alt="" />
+      <img src="/images/about_cc/list_banner5.jpg" alt="" />
     </div>
     <div class="company-aboutus-content">
       <h1 class="title">合作伙伴</h1>
@@ -53,7 +54,7 @@ const listData = ref([
         <div class="content-item">
           <template v-for="(item, index) of listData" :key="index">
             <div class="qualifications-item">
-              <img :src="item.url" />
+              <img :src="`${base}images/about_cc/${item.url}`" />
             </div>
           </template>
         </div>

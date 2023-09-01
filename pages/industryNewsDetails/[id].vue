@@ -1,7 +1,7 @@
 <template>
   <div class="news-details">
     <div class="header-banner">
-      <img src="@/assets/images/newsbanner.png" alt="" />
+      <img src="/images/newsbanner.png" alt="" />
     </div>
     <div class="news-main">
       <div class="page-title">行业新闻</div>

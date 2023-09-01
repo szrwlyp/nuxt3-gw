@@ -3,7 +3,7 @@
 <template>
   <div class="company-aboutus">
     <div class="header-banner">
-      <img src="@/assets/images/list_banner.jpg" alt="" />
+      <img src="/images/list_banner.jpg" alt="" />
     </div>
     <div class="company-aboutus-content">
       <h1 class="title">联系我们</h1>
@@ -14,25 +14,22 @@
         <div class="content-item">
           <div class="contact_us_flex">
             <div class="contact_us">
-              <img src="@/assets/images/about_cc/icon-ad.png" alt="公司地址" />
+              <img src="/images/about_cc/icon-ad.png" alt="公司地址" />
               <span>地址：广西南宁市青秀区东葛路118号万达金座13层</span>
             </div>
             <div class="contact_us">
-              <img
-                src="@/assets/images/about_cc/icon-mail.png"
-                alt="招聘信箱"
-              />
+              <img src="/images/about_cc/icon-mail.png" alt="招聘信箱" />
               <span>Email：business@chaochuang.com.cn</span>
             </div>
             <div class="contact_us">
               <img
-                src="@/assets/images/about_cc/icon-phone-recruitment.png"
+                src="/images/about_cc/icon-phone-recruitment.png"
                 alt="电话"
               />
               <span>电话： 0771-5507771</span>
             </div>
             <div class="contact_us">
-              <img src="@/assets/images/about_cc/icon-fax.png" alt="联系人" />
+              <img src="/images/about_cc/icon-fax.png" alt="联系人" />
               <span>传真：0771-5507773</span>
             </div>
           </div>

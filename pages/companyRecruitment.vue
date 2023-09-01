@@ -115,7 +115,7 @@ const sourceData = ref([
 <template>
   <div class="company-aboutus">
     <div class="header-banner">
-      <img src="@/assets/images/about_cc/list_banner7.jpg" alt="" />
+      <img src="/images/about_cc/list_banner7.jpg" alt="" />
     </div>
     <div class="company-aboutus-content">
       <h1 class="title">招贤纳士</h1>
@@ -147,31 +147,22 @@ const sourceData = ref([
           <div class="recruit_content">
             <div class="recruit_content-item">
               <div class="contact_hr">
-                <img
-                  src="@/assets/images/about_cc/icon-people.png"
-                  alt="联系人"
-                />
+                <img src="/images/about_cc/icon-people.png" alt="联系人" />
                 <span>联 系 人： 刘小姐</span>
               </div>
               <div class="contact_hr">
                 <img
-                  src="@/assets/images/about_cc/icon-phone-recruitment.png"
+                  src="/images/about_cc/icon-phone-recruitment.png"
                   alt="电话"
                 />
                 <span>电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话： 0771-5507771</span>
               </div>
               <div class="contact_hr">
-                <img
-                  src="@/assets/images/about_cc/icon-mail.png"
-                  alt="招聘信箱"
-                />
+                <img src="/images/about_cc/icon-mail.png" alt="招聘信箱" />
                 <span>招聘信箱： hr@chaochuang.com.cn</span>
               </div>
               <div class="contact_hr">
-                <img
-                  src="@/assets/images/about_cc/icon-ad.png"
-                  alt="公司地址"
-                />
+                <img src="/images/about_cc/icon-ad.png" alt="公司地址" />
                 <span>公司地址：广西南宁市青秀区东葛路118号万达金座13层</span>
               </div>
             </div>

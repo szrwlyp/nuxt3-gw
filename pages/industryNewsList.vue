@@ -5,12 +5,15 @@ import { industryNewsSourceData } from "@/assets/js/sourceData";
 const jumpNewsDetail = (id: number) => {
   navigateTo({ path: `/industryNewsDetails/${id}` });
 };
+
+const config = useRuntimeConfig();
+const base = config.public.baseURL;
 </script>
 
 <template>
   <div class="industry-news">
     <div class="header-banner">
-      <img src="@/assets/images/newsbanner.png" alt="" />
+      <img src="/images/newsbanner.png" alt="" />
     </div>
     <div class="news-main">
       <h1 class="page-title">行业新闻</h1>
@@ -24,7 +27,11 @@ const jumpNewsDetail = (id: number) => {
             class="mobile-terminal-event"
             @click="jumpNewsDetail(item.id)"
           ></div>
-          <img class="item-img" :src="item.img" alt="" />
+          <img
+            class="item-img"
+            :src="`${base}images/industry_news/${item.img}`"
+            alt=""
+          />
           <div class="item-right">
             <div class="news-title-data">
               <h2 class="title" @click="jumpNewsDetail(item.id)">

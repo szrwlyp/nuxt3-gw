@@ -3,27 +3,21 @@
 <template>
   <div class="company-aboutus">
     <div class="header-banner">
-      <img src="@/assets/images/about_cc/list_banner8.jpg" alt="" />
+      <img src="/images/about_cc/list_banner8.jpg" alt="" />
     </div>
     <div class="company-aboutus-content">
       <h1 class="title">企业文化</h1>
       <div class="content">
         <div class="content-item">
-          <img
-            src="@/assets/images/about_cc/company-mission-title.jpg"
-            alt=""
-          />
+          <img src="/images/about_cc/company-mission-title.jpg" alt="" />
           <p>
             为客户提供一流产品、优质服务，推动社会的信息化建设，让客户感受信息化带来的工作生活乐趣，帮助客户获得成功。公司与员工共同持续发展，努力确保公正、积极的工作条件，以开拓、进取之心面对社会发展潮流，承担社会发展义务。作为一家新兴的软件开发、信息技术解决方案的供应商，我们立足IT行业发展前沿，将努力在技术、业务上不断创新，去实现我们的使命。
           </p>
         </div>
         <div class="content-item">
+          <img src="/images/about_cc/company-philosophy-title.jpg" alt="" />
           <img
-            src="@/assets/images/about_cc/company-philosophy-title.jpg"
-            alt=""
-          />
-          <img
-            src="@/assets/images/about_cc/company-philosophy-pic.jpg"
+            src="/images/about_cc/company-philosophy-pic.jpg"
             alt="公司理念"
             class="company-idea"
           />

@@ -3,7 +3,7 @@
 <template>
   <div class="solution-gov">
     <div class="header-banner">
-      <img src="@/assets/images/list_banner.jpg" alt="" />
+      <img src="/images/list_banner.jpg" alt="" />
     </div>
     <div class="content">
       <div class="content-left"></div>
@@ -15,7 +15,7 @@
         <div class="main-profile">
           <div class="main-profile-item">
             <div class="main-profile-title">
-              <img src="@/assets/images/solution_building/icon-01.jpg" alt="" />
+              <img src="/images/solution_building/icon-01.jpg" alt="" />
               <h4 class="title">概述</h4>
             </div>
             <div class="main-profile-contnt">
@@ -51,14 +51,11 @@
           <!-- 总体架构 -->
           <div class="main-profile-item">
             <div class="main-profile-title">
-              <img src="@/assets/images/solution_building/icon-02.jpg" alt="" />
+              <img src="/images/solution_building/icon-02.jpg" alt="" />
               <h4 class="title">总体结构</h4>
             </div>
             <div class="main-profile-contnt">
-              <img
-                src="@/assets/images/solution_line/solution-line.jpg"
-                alt=""
-              />
+              <img src="/images/solution_line/solution-line.jpg" alt="" />
             </div>
           </div>
         </div>

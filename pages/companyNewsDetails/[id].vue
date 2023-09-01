@@ -1,7 +1,7 @@
 <template>
   <div class="news-details">
     <div class="header-banner">
-      <img src="@/assets/images/newsbanner.png" alt="" />
+      <img src="/images/newsbanner.png" alt="" />
     </div>
     <div class="news-main">
       <div class="page-title">企业新闻</div>
@@ -25,7 +25,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { companyNewsSourceData } from "@/assets/js/sourceData";
+import { companyNewsSourceData } from "@/assets/js/companyNewsSourceData";
 const route = useRoute();
 const id = Number(route?.params?.id) || 0;
 

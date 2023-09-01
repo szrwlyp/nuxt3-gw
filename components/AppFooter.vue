@@ -21,7 +21,7 @@ import { footerNavList } from "assets/js/publicConfig";
         </div>
         <span style="margin: 0 16px">|</span>
         <div class="contact-weixin iconfont icon-weixin">
-          <img src="@/assets/images/weixin.png" alt="" />
+          <img src="/images/weixin.png" alt="" />
         </div>
         <!-- <img
           src="https://www.chaochuang.com.cn/style/images/wechat-default.png"

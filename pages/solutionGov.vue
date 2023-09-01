@@ -3,7 +3,7 @@
 <template>
   <div class="solution-gov">
     <div class="header-banner">
-      <img src="@/assets/images/list_banner.jpg" alt="" />
+      <img src="/images/list_banner.jpg" alt="" />
     </div>
     <div class="content">
       <div class="content-left"></div>
@@ -15,7 +15,7 @@
         <div class="main-profile">
           <div class="main-profile-item">
             <div class="main-profile-title">
-              <img src="@/assets/images/solution_gov/icon-01.jpg" alt="" />
+              <img src="/images/solution_gov/icon-01.jpg" alt="" />
               <h4 class="title">概述</h4>
             </div>
             <div class="main-profile-contnt">
@@ -31,18 +31,18 @@
           <!-- 总体架构 -->
           <div class="main-profile-item">
             <div class="main-profile-title">
-              <img src="@/assets/images/solution_gov/icon-02.jpg" alt="" />
+              <img src="/images/solution_gov/icon-02.jpg" alt="" />
               <h4 class="title">总体结构</h4>
             </div>
             <div class="main-profile-contnt">
-              <img src="@/assets/images/solution_gov/solution-gov.jpg" alt="" />
+              <img src="/images/solution_gov/solution-gov.jpg" alt="" />
             </div>
           </div>
 
           <!-- 功能特点 -->
           <div class="main-profile-item">
             <div class="main-profile-title">
-              <img src="@/assets/images/solution_gov/icon-03.jpg" alt="" />
+              <img src="/images/solution_gov/icon-03.jpg" alt="" />
               <h4 class="title">功能特点</h4>
             </div>
             <div class="main-profile-contnt">
@@ -83,7 +83,7 @@
           <!-- 客户价值 -->
           <div class="main-profile-item">
             <div class="main-profile-title">
-              <img src="@/assets/images/solution_gov/icon-04.png" alt="" />
+              <img src="/images/solution_gov/icon-04.png" alt="" />
               <h4 class="title">客户价值</h4>
             </div>
             <div class="main-profile-contnt">
@@ -100,7 +100,7 @@
           <!-- 典型客户 -->
           <div class="main-profile-item">
             <div class="main-profile-title">
-              <img src="@/assets/images/solution_gov/icon-05.jpg" alt="" />
+              <img src="/images/solution_gov/icon-05.jpg" alt="" />
               <h4 class="title">典型客户</h4>
             </div>
             <div class="main-profile-contnt">

@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { companyNewsSourceData } from "@/assets/js/sourceData";
-
+import { companyNewsSourceData } from "@/assets/js/companyNewsSourceData";
+const config = useRuntimeConfig();
+const base = config.public.baseURL;
 const jumpNewsDetail = (id: number) => {
   navigateTo({ path: `/companyNewsDetails/${id}` });
 };
@@ -10,7 +11,7 @@ const jumpNewsDetail = (id: number) => {
 <template>
   <div class="industry-news">
     <div class="header-banner">
-      <img src="@/assets/images/newsbanner.png" alt="" />
+      <img src="/images/newsbanner.png" alt="" />
     </div>
     <div class="news-main">
       <h1 class="page-title">企业新闻</h1>
@@ -24,7 +25,11 @@ const jumpNewsDetail = (id: number) => {
             class="mobile-terminal-event"
             @click="jumpNewsDetail(item.id)"
           ></div>
-          <img class="item-img" :src="item.img" alt="" />
+          <img
+            class="item-img"
+            :src="`${base}images/company_news/${item.img}`"
+            alt=""
+          />
           <div class="item-right">
             <div class="news-title-data">
               <h2 class="title" @click="jumpNewsDetail(item.id)">
